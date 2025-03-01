@@ -1,6 +1,8 @@
 import React, { useRef, useEffect } from "react";
 import { MarkdownRenderer } from "../utils/markdownUtils";
 
+//ChatMessages is a component that displays chat messages and automatically scrolls to the latest message. It supports both user and AI messages, and it renders AI messages with Markdown support.
+
 function ChatMessages({ messages, loading }) {
   const messagesEndRef = useRef(null);
 

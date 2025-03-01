@@ -57,11 +57,11 @@ function ChatInput({
           <Send size={20} className={loading ? "animate-pulse" : ""} />
         </button>
 
-        {/* {loading && (
-          <div className="absolute left-4 -top-6 text-sm text-indigo-600 font-medium">
+        {loading && (
+          <div className="absolute left-4 -top-10 text-sm text-indigo-600 font-medium">
             AI is typing...
           </div>
-        )} */}
+        )}
       </form>
     </div>
   );

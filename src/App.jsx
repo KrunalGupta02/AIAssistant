@@ -9,6 +9,7 @@ function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [currentMessage, setCurrentMessage] = useState("");
 
+  // This is used to show the inital chat screen
   const [chats, setChats] = useState([
     {
       id: "1",
